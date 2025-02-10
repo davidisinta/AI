@@ -23,9 +23,4 @@ However, a majority of tokens in each dataset were unique:
 - **Unique to Wizard of Oz**: 1,730 tokens
 - **Unique to Court of Appeal**: 1,688 tokens
 
-For instance, the word *"synonymous"* appeared only in *Wizard of Oz*. Although it is a common word, it likely did not appear frequently enough in the *Court of Appeal* document to be included in its final vocabulary.
-
-## Conclusion
-
-This experiment highlights the effectiveness of Word Piece Tokenization in learning meaningful subword patterns. The balance between shared and unique tokens across different datasets illustrates how the model generalizes while still retaining dataset-specific vocabulary.
-
+For instance, the word *"synonymous"* appeared only in *Wizard of Oz*. Although it is a common word, it likely did not appear frequently enough in the *Court of Appeal* document to be included in its final vocabulary. This is also attributed to the model being trained on data of one particular topic therefore its ability to generalize is a little skewed and biased.
