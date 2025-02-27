@@ -12,34 +12,6 @@ Given that each pair contained over 2,000 unique tokens, multiple discrepancies 
 - **Words:** Honig and 347  
   - **Skipgram Similarity:** 0.81  
   - **CBOW Similarity:** -0.61  
-- **Words:** Honig and Many  
-  - **Skipgram Similarity:** 0.84  
-  - **CBOW Similarity:** -0.46  
-- **Words:** Honig and exist  
-  - **Skipgram Similarity:** 0.85  
-  - **CBOW Similarity:** -0.54  
-- **Words:** Honig and 636  
-  - **Skipgram Similarity:** 0.89  
-  - **CBOW Similarity:** -0.56  
-- **Words:** polic and ##ncy  
-  - **Skipgram Similarity:** 0.98  
-  - **CBOW Similarity:** -0.69  
-- **Words:** polic and ##gulat  
-  - **Skipgram Similarity:** 0.96  
-  - **CBOW Similarity:** -0.65  
-- **Words:** polic and constitution  
-  - **Skipgram Similarity:** 0.92  
-  - **CBOW Similarity:** -0.55  
-- **Words:** polic and ##g  
-  - **Skipgram Similarity:** 0.81  
-  - **CBOW Similarity:** -0.49  
-- **Words:** polic and Many  
-  - **Skipgram Similarity:** 0.85  
-  - **CBOW Similarity:** -0.65  
-- **Words:** polic and action  
-  - **Skipgram Similarity:** 0.87  
-  - **CBOW Similarity:** -0.49  
-
 ## Factors Affecting Discrepancies
 Several factors contributed to the differences between Skip-gram and CBOW:
 
