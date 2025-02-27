@@ -6,7 +6,7 @@ The second part of the assignment was quite challenging, particularly when it ca
 Initially, my approach was to compare embeddings of **real cases** directly against **cited cases**. However, this presented two key challenges:
 
 1. **Detecting Non-Existent Cases**  
-   - Full case descriptions were unnecessary for identifying fictitious cases—only the case titles (or headers) mattered.  
+   - Full case descriptions were unnecessary for identifying non-existent cases; only the case titles mattered.  
    - To optimize this, I **split** each case into two parts: **header** and **description**.  
    - This significantly improved accuracy in detecting non-existent cases.  
    - The results improved even further when I **trimmed headers** to retain only the **"Who vs. Who"** format, making the embeddings highly effective at identifying hallucinated case names.
@@ -31,7 +31,7 @@ Arrington v. New
 ```
 
 ### **Possible Matches**
-These cases had close but imperfect matches, suggesting some level of misinterpretation:
+These cases had close but imperfect matches, suggesting some level of hallucination:
 
 ```
 Cited: Hurwitz v. United | Real: Powers v. United | Similarity: 0.5806  
